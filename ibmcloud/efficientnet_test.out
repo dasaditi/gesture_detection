@@ -1,0 +1,189 @@
+2020-04-05 22:36:00.442091: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2020-04-05 22:36:00.442233: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2020-04-05 22:36:00.442251: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2020-04-05 22:36:01.956996: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-04-05 22:36:02.407453: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-04-05 22:36:02.408442: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:00:07.0 name: Tesla P100-PCIE-16GB computeCapability: 6.0
+coreClock: 1.3285GHz coreCount: 56 deviceMemorySize: 15.90GiB deviceMemoryBandwidth: 681.88GiB/s
+2020-04-05 22:36:02.408575: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-04-05 22:36:02.411446: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-04-05 22:36:02.413681: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-04-05 22:36:02.414094: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-04-05 22:36:02.416652: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-04-05 22:36:02.418031: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-04-05 22:36:02.418149: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory
+2020-04-05 22:36:02.418169: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1592] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2020-04-05 22:36:02.418615: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-04-05 22:36:02.426913: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2600075000 Hz
+2020-04-05 22:36:02.427478: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5cec170 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-04-05 22:36:02.427506: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-04-05 22:36:02.564996: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-04-05 22:36:02.566191: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5c3eaf0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-04-05 22:36:02.566230: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla P100-PCIE-16GB, Compute Capability 6.0
+2020-04-05 22:36:02.566374: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-04-05 22:36:02.566390: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      
+Using TensorFlow backend.
+AGAIN
+18
+-----------------
+Actual:  DRESS
+Prediction:  DRESS
+-----------------
+Actual:  CHEAT
+Prediction:  CONFLICT
+-----------------
+Actual:  AGAIN
+Prediction:  AGAIN
+-----------------
+Actual:  COAT
+Prediction:  COAT
+-----------------
+Actual:  CONFLICT
+Prediction:  DRESS
+-----------------
+Actual:  DRESS
+Prediction:  DRESS
+-----------------
+Actual:  DRESS
+Prediction:  DRESS
+-----------------
+Actual:  DEPRESS
+Prediction:  DEPRESS
+-----------------
+Actual:  DRESS
+Prediction:  DRESS
+-----------------
+Actual:  COURT
+Prediction:  COURT
+-----------------
+Actual:  CHAT
+Prediction:  CHAT
+-----------------
+Actual:  DEPOSIT
+Prediction:  DEPOSIT
+-----------------
+Actual:  CONFLICT
+Prediction:  CONFLICT
+-----------------
+Actual:  CHEAP
+Prediction:  CHEAP
+-----------------
+Actual:  ALL
+Prediction:  ALL
+-----------------
+Actual:  COURT
+Prediction:  COURT
+-----------------
+Actual:  CHAT
+Prediction:  CHAT
+-----------------
+Actual:  DRESS
+Prediction:  DRESS
+-----------------
+Actual:  AGAIN
+Prediction:  AGAIN
+-----------------
+Actual:  COAT
+Prediction:  COAT
+-----------------
+Actual:  AGAIN
+Prediction:  AGAIN
+-----------------
+Actual:  BEHAVIOR
+Prediction:  BEHAVIOR
+-----------------
+Actual:  CHEAP
+Prediction:  CHEAP
+-----------------
+Actual:  DRESS
+Prediction:  NEG
+-----------------
+Actual:  DOCTOR
+Prediction:  ALL
+-----------------
+Actual:  COURT
+Prediction:  COURT
+-----------------
+Actual:  CHURCH
+Prediction:  CHURCH
+-----------------
+Actual:  CHEAT
+Prediction:  AGAIN
+-----------------
+Actual:  CONFLICT
+Prediction:  DRESS
+-----------------
+Actual:  BASEBALL
+Prediction:  CHEAP
+-----------------
+Actual:  DEPRESS
+Prediction:  COAT
+-----------------
+Actual:  BEHAVIOR
+Prediction:  BEHAVIOR
+-----------------
+Actual:  CAN
+Prediction:  DEPRESS
+-----------------
+Actual:  ENOUGH
+Prediction:  ENOUGH
+-----------------
+Actual:  DEPOSIT
+Prediction:  DRESS
+-----------------
+Actual:  CHURCH
+Prediction:  CHURCH
+-----------------
+Actual:  CHAT
+Prediction:  CHAT
+-----------------
+Actual:  CHAT
+Prediction:  CHAT
+-----------------
+Actual:  CAN
+Prediction:  AWKWARD
+-----------------
+Actual:  AWKWARD
+Prediction:  DEPRESS
+-----------------
+Actual:  DRESS
+Prediction:  CHEAP
+-----------------
+Actual:  COURT
+Prediction:  COURT
+-----------------
+Actual:  NEG
+Prediction:  DRESS
+-----------------
+Actual:  AGAIN
+Prediction:  AGAIN
+-----------------
+Actual:  ENOUGH
+Prediction:  DOCTOR
+-----------------
+Actual:  ALL
+Prediction:  ALL
+-----------------
+Actual:  BEHAVIOR
+Prediction:  BEHAVIOR
+-----------------
+Actual:  DOCTOR
+Prediction:  DOCTOR
+-----------------
+Actual:  NEG
+Prediction:  NEG
+-----------------
+Actual:  CAN
+Prediction:  CAN
+-----------------
+Actual:  DRESS
+Prediction:  DRESS
+-----------------
+Actual:  DOCTOR
+Prediction:  DOCTOR
+-----------------
+Actual:  AWKWARD
+Prediction:  CHEAP
+Accuracy =  0.6981132075471698
